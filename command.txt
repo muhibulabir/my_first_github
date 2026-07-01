@@ -1,0 +1,7 @@
+echo "# my_first_github" >> README.md
+git init- each project one time
+git add . -every time also specfic then add file.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/muhibulabir/my_first_github.git
+git push -u origin main
