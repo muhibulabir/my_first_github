@@ -4,24 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User registration & profile page</title>
+    <style>
+        p{
+            color: rgb(255, 0, 0);
+        }
+        h2{
+            color: aquamarine  ;
+        }
+        .argentina{
+            color: blue;
+        }
+        
+        .brazil{
+            color: yellow;
+    
+        }
+        .france{
+            color: bisque;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header style="color: rgb(120, 152, 182);">
         <nav>
             <a>Home</a>
-            <a href="mailto:support@devconnect.com?Website%20Feedback&body=help portal">help desk</a>
+            <a href="mailto:support@devconnect.com?Website%20Feedback&body=help portal">help desk</a>https://drive.google.com/file/d/1M_ieuMpXRO3FA2cDAfkJtBcKcyMIgHAE/view?usp=sharing
+            <a href="mentalhealth.html" target="_blank">learn about mental health</a>
         </nav>
     </header>
    <main>
+    
     <section>
-        <h2>Current Membership</h2>
-        <table border="2">
+        <p >Lorem ipsum dolor sit amet.</p>
+        <p >Lorem, ipsum dolor.</p>
+        <h2 >Current Membership</h2>
+        <table border="2" class="argentina">
             <caption><strong>Account</strong> Details</caption>
             <tr>
                 <th>Feature</th>
                 <th>Status</th>
             </tr>
-            <tr>
+            <tr class="france">
                 <td>Account type</td>
                 <td><em>Student</em> Account</td>
             </tr>
@@ -31,7 +54,29 @@
             </tr>
         </table>
     </section>
+    <section>
+        <h2>Update your details</h2>
+        <form>
+            <label>Name</label>
+            <input type="text" name="username"><br><br>
+            <label>designation</label>
+            <select name="Department">
+                <option>FrontEnd</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox">
+            <label>Email updates</label>
+            <br><br>
+            <button class="brazil">Submit</button>
+        </form>
+    </section>
    </main>
-    <h1>Exam is coming</h1>
+   <br><br>
+   <footer>
+    &copy;2026 DevConnect. All rights reserved.
+   </footer>
 </body>
 </html>
